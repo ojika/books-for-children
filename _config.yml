@@ -1,7 +1,8 @@
 # Site settings
-title:
+title: Books for Children
 email:
 description: > # this means to ignore newlines until "baseurl:"
+  世界中の子供たちに日本語の本を届けるためのプロジェクト
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
