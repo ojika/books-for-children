@@ -55,6 +55,14 @@ p {
     color: rgba(white, .7);
 }
 
+.comment {
+    color: rgba(white, .7);
+    font-size: 12px;
+}
+.comment:before {
+    content: "※";
+}
+
 section {
     padding: 100px 0;
 }
@@ -282,7 +290,21 @@ header {
     h2 {
         margin: 0 auto 20px;
     }
+
+    ul {
+        padding:0;
+        margin: 0;
+        margin-bottom: 2em;
+
+        li {
+            list-style-type: none;
+            margin-top: .2em;
+            margin-bottom: .2em;
+        }
+    }
 }
+
+
 
 // Bootstrap Overrides
 .text-primary {
