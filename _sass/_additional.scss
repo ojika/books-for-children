@@ -1,0 +1,10 @@
+.donation {
+    dl, dt, dd {
+    }
+    dt {
+        float: left;
+    }
+    dt:after {
+        content: ":\00a0";
+    }
+}

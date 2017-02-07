@@ -1,49 +1,78 @@
 <section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">ご連絡はこちらまで</h2>
-                <hr class="primary">
-                <p>ご協力いただける方や、本が足りない日本語補習校や日本人学校の方はご連絡ください。</p>
-                <p>Twitter やメールでご連絡をお待ちしております。</p>
-            </div>
-        <div class="col-lg-2 col-lg-offset-3 text-center">
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-                <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.twitter_username }}</p>
-            </a>
-        </div>
-        <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="mailto:{{ site.email }}">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.email }}</p>
-            </a>
-        </div>
-        <div>
-          <div class="social-area-syncer">
-	    <ul class="social-button-syncer">
-	      <!-- Twitter -->
-	      <li class="sc-tw"><a data-url="http://books-for-children.jp/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true">ツイート</a></li>
-	      <!-- Facebook -->
-	      <li class="sc-fb"><div class="fb-like" data-href="http://books-for-children.jp/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
-	      <!-- Google+ -->
-	      <li><div data-href="http://books-for-children.jp/" class="g-plusone" data-size="tall"></div></li>
-	      <!-- はてなブックマーク -->
-	      <li><a href="http://b.hatena.ne.jp/entry/http://books-for-children.jp/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
-	      <!-- pocket -->
-	      <li><a data-save-url="http://books-for-children.jp/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
-	      <!-- LINE [画像は公式ウェブサイトからダウンロードして下さい] -->
-	      <li class="sc-li"><a href="http://line.me/R/msg/text/?http://books-for-children.jp/"><img src="img/linebutton_36x60.png" width="36" height="60" alt="LINEに送る" class="sc-li-img"></a></li>
-	    </ul>
-
-            <!-- Facebook用 -->
-            <div id="fb-root"></div>
-
-          </div>
-        </div>
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-             <a class="twitter-timeline"  href="https://twitter.com/bfc_jp" data-widget-id="727963163749011456">@bfc_jpさんのツイート</a>
-             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading">ご連絡はこちらまで</h2>
+        <hr class="primary">
+        <p>ご協力いただける方や、本が足りない日本語補習校や日本人学校の方はご連絡ください。</p>
+        <p>Twitter やメールでご連絡をお待ちしております。</p>
+      </div>
+      <div class="col-lg-2 col-lg-offset-3 text-center">
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+          <p>{{ site.twitter_username }}</p>
+        </a>
+      </div>
+      <div class="col-lg-2 col-lg-offset-2 text-center">
+        <a href="mailto:{{ site.email }}">
+          <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+          <p>{{ site.email }}</p>
+        </a>
+      </div>
+      <div class="col-lg-6 col-lg-offset-3 text-center donation">
+        <h2 class="section-heading">寄付のお願い</h2>
+        <hr class="primary">
+        <p>海外へ本を発送する送料やリクエストのあった書籍の購入などのため、寄付のご協力をお願いしています。もし私たちの活動にご賛同いただけるようでしたら、ぜひ寄付のご協力をお願いいたします。</p>
+      </div>
+      <div class="col-lg-4 col-lg-offset-3 donation">
+        <h3>ゆうちょ銀行もしくは郵便局から</h3>
+        <dl>
+          <dt>記号・番号</dt>
+          <dd>10180-8938075</dd>
+          <dt>口座名義</dt>
+          <dd>Books for Children</dd>
+        </dl>
+      </div>
+      <div class="col-lg-4 donation">
+        <h3>その他の銀行から</h3>
+        <dl>
+          <dt>銀行名</dt>
+          <dd>ゆうちょ銀行</dd>
+          <dt>店名</dt>
+          <dd>０一八（読み　ゼロイチハチ）</dd>
+          <dt>口座種別(科目)</dt>
+          <dd>普通</dd>
+          <dt>口座番号</dt>
+          <dd>8938075</dd>
+          <dt>口座名義</dt>
+          <dd>ブツクスフオ－チルドレン</dd>
+        </dl>
+      </div>
     </div>
+    <div class="social-area-syncer">
+      <ul class="social-button-syncer">
+	<!-- Twitter -->
+	<li class="sc-tw"><a data-url="http://books-for-children.jp/" href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-count="vertical" data-dnt="true">ツイート</a></li>
+	<!-- Facebook -->
+	<li class="sc-fb"><div class="fb-like" data-href="http://books-for-children.jp/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+	<!-- Google+ -->
+	<li><div data-href="http://books-for-children.jp/" class="g-plusone" data-size="tall"></div></li>
+	<!-- はてなブックマーク -->
+	<li><a href="http://b.hatena.ne.jp/entry/http://books-for-children.jp/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border:none;" /></a></li>
+	<!-- pocket -->
+	<li><a data-save-url="http://books-for-children.jp/" data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a></li>
+	<!-- LINE [画像は公式ウェブサイトからダウンロードして下さい] -->
+	<li class="sc-li"><a href="http://line.me/R/msg/text/?http://books-for-children.jp/"><img src="img/linebutton_36x60.png" width="36" height="60" alt="LINEに送る" class="sc-li-img"></a></li>
+      </ul>
+
+      <!-- Facebook用 -->
+      <div id="fb-root"></div>
+
+    </div>
+  </div>
+  <div class="col-lg-8 col-lg-offset-2 text-center">
+    <a class="twitter-timeline"  href="https://twitter.com/bfc_jp" data-widget-id="727963163749011456">@bfc_jpさんのツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
 </section>
+
